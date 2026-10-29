@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.7s ease;
+}
+
+.conteudo-menu-principal {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 125px;
+    justify-content: space-around;
+    background-color: rgb(255, 254, 254);
+}
+
+.conteudo-menu-principal img {
+    height: 80px;
+}
+
+.conteudo-menu-principal ul {
+    display: flex;
+}
+
+.conteudo-menu-principal ul li {
+    list-style: none;
+}
+
+.conteudo-menu-principal ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.conteudo-menu-principal .menu-item {
+    text-decoration: none;
+    color: rgb(50, 50, 49);
+    font-weight: 525;
+}
+
+.conteudo-menu-principal .menu-item:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+.conteudo-menu-principal .button {
+    background-color: black;
+    padding: 0.5rem;
+    color: gold;
+    text-decoration:none;
+}
+
+.conteudo-menu-principal .button:hover {
+    text-decoration: underline;
+}
+
+#Inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: "Righteous", sans-serif;
+    height: 650px;
+
+    background-color: rgb(241, 241, 241);
+}
+
+#Inicio .conteudo-inicio h1 {
+    font-size: 3rem;
+    color: rgb(50, 50, 49);
+    margin-bottom: 15px;
+    font-weight: 550;
+}
+
+#Inicio .conteudo-inicio h2 {
+    font-size: 2rem;
+    color: rgb(50, 50, 49);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#Inicio .conteudo-inicio p {
+    font-size: 1.4rem;
+    color: rgb(244, 208, 5);
+    margin-bottom: 15px;
+}
+
+#Inicio img {
+    height: 35rem;
+    border-radius: 2vw;
+}
+
+#Inicio button {
+    cursor: pointer;
+    border-radius: 1vw;
+    padding: 8px;
+    background-color: white;
+    color: rgb(50, 50, 49);
+    font-weight: 550;
+    width: 20%;
+}
+
+#Inicio button:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo-empresa img {
+    height: 6rem;
+    margin-top: 10px;
+}
+
+.instagram {
+    font-size: 20px;
+    margin-right: 25px;
+    color: gold;
+}
+
+.whatsapp {
+    font-size: 20px;
+    color: gold;
+}
+
+footer i {
+    font-size: 1.4rem;
+    color: gold;
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 650px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: all 0.7 ease;
+    }
+
+    body {
+        width: 150vw;
+    }
+
+    .conteudo-menu-principal {
+        display: none;
+    }
+
+    #Inicio {
+        background-color: rgb(241, 241, 241);
+        width: 100%;
+        height: 150vh;
+        display: block;
+        padding: 20px;
+    }
+
+    #Inicio .conteudo-inicio h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #Inicio .conteudo-inicio h2 {
+        font-size: 2.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #Inicio .conteudo-inicio p {
+        font-size: 1.6rem;
+    }
+
+    #Inicio button {
+        width: 25%;
+        margin-bottom: 1.5rem;
+    }   
+
+    #Inicio img {
+        width: 75%;
+    }
+
+    footer i {
+        font-size: 2rem
+    }
+}
+
